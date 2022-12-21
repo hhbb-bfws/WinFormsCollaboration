@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsCollaboration", "WinFormsCollaboration\WinFormsCollaboration.csproj", "{ABC51486-3824-4627-A6AB-26088B7F7008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABC51486-3824-4627-A6AB-26088B7F7008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC51486-3824-4627-A6AB-26088B7F7008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC51486-3824-4627-A6AB-26088B7F7008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC51486-3824-4627-A6AB-26088B7F7008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDFCFDF3-9E79-432B-A523-66B75B15DCA2}
+	EndGlobalSection
+EndGlobal
