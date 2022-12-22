@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnLos = new System.Windows.Forms.Button();
+			this.BtnBeenden = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLos
@@ -40,12 +41,23 @@
             this.btnLos.Text = "Los!";
             this.btnLos.UseVisualStyleBackColor = true;
             // 
+            // BtnBeenden
+            // 
+            this.BtnBeenden.Location = new System.Drawing.Point(415, 216);
+            this.BtnBeenden.Name = "BtnBeenden";
+            this.BtnBeenden.Size = new System.Drawing.Size(121, 71);
+            this.BtnBeenden.TabIndex = 0;
+            this.BtnBeenden.Text = "Beenden";
+            this.BtnBeenden.UseVisualStyleBackColor = true;
+
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(576, 361);
             this.Controls.Add(this.btnLos);
+            this.Controls.Add(this.BtnBeenden);
             this.Name = "Form1";
             this.Text = "WinFormsCollaboration";
             this.ResumeLayout(false);
@@ -54,6 +66,9 @@
 
         #endregion
 
+
         private Button btnLos;
+        private Button BtnBeenden;
+
     }
 }
